@@ -324,9 +324,10 @@
         justify-content: center;
         font-family: 'montserrat';
         width: 83%;
-        height: 95%;
+        height: 87%;
         background-color: hsl(30, 38%, 92%);
         color: hsl(234, 29%, 20%);
+        box-shadow: 2px 2px 13px 2px rgb(224, 224, 224);
     }
     .card{
         max-width: 640px;
