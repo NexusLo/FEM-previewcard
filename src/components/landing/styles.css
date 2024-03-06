@@ -52,6 +52,7 @@
     width: 83%;
     height: 95%;
     background-color: hsl(30, 38%, 92%);
+    min-height: 720px;
     color: hsl(234, 29%, 20%);
 }
 .card{
@@ -60,11 +61,12 @@
     align-items: center;
     justify-content: center;
     font-family: 'montserrat';
-    width: 75%;
-    height: 95%;
-    min-width: 350px;
-    max-width: 375px;
-    min-height: 620px;
+    width: 72%;
+    height: auto;
+    min-width: 320px;
+    max-width: 360px;
+    max-height: 760px;
+    min-height: 720px;
     border-radius: 15px;
 }
 .leftdiv{
@@ -80,6 +82,7 @@
     height: 150%;
     border-radius: 15px 15px 0px 0px;
     background-color: white;
+    margin-bottom: 15px;
 }
 .rightdiv{
     display: flex;
@@ -92,21 +95,21 @@
     text-align: left;
 }
 .rightdiv__headline{
-    margin: -10px 0 15px 23px;
+    margin: -20px 0 15px 23px;
     font-family: "montserrat-r";
     text-align: left;
     font-size: 0.75rem;
     letter-spacing: 0.32rem;
     color: #53545a;
 }
-.rightdiv__title{
+.rightdiv__title{   
     margin-left: 25px;
     margin-bottom: 15px;
     line-height: 0.92;
     font-family: 'fraunces-b';
     font-weight: 100;
     letter-spacing: 0.06rem;
-    width: 75%; 
+    width: 85%; 
 }
 
 .rightdiv__txt{
@@ -195,7 +198,7 @@
     .card{
         max-width: 620px;
         min-width: 580px;
-        min-height: 400px;
+        min-height: 450px;
         width: 55%;
         height: 51%;
         background-color: white;
